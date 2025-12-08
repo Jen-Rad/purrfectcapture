@@ -2,7 +2,8 @@
 
 **🌐 Live at:** [purrfectcapture.pro](https://purrfectcapture.pro)
 
-A beautiful screenshot capture app with a fun cat-themed design!
+The purrfect way to screenshot—fast, intuitive, and infused with a little meowgic in every snap.
+
 
 ## ✨ Features
 
