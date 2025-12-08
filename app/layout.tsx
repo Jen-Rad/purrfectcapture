@@ -1,9 +1,10 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata } from 'next';
+import './globals.css';
 
-export const metadata: Metadata = {
-  title: "Waitlist Demo",
-  description: "A beautiful waitlist component demo",
+export const metadata = {
+  title: 'Purrfect Capture',
+  description:
+    'The purrfect way to screenshot—fast, intuitive, and infused with a little meowgic in every snap.',
 };
 
 export default function RootLayout({

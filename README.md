@@ -1,80 +1,56 @@
-# 🐱 SnapCat - Purrfect Screenshot Captures
+# Purrfect Capture
 
-**🌐 Live at:** [purrfectcapture.pro](https://purrfectcapture.pro)
+**The purrfect way to screenshot—fast, intuitive, and infused with a little meowgic in every snap… no claws attached!**
 
-The purrfect way to screenshot—fast, intuitive, and infused with a little meowgic in every snap.
+Purrfect Capture is a playful, creator-friendly screenshot tool that makes capturing, downloading, and sharing visuals effortless. Think of it as your creative sidekick—with whiskers.
 
+---
 
 ## ✨ Features
 
-- 📸 **One-Click Screen Capture** - Capture your entire screen, window, or browser tab
-- 💾 **Download to Desktop** - Save screenshots directly to your local machine
-- ☁️ **Cloud Storage** (Optional) - Save to Vercel Blob for permanent storage
-- 🎨 **Beautiful UI** - Animated gradient backgrounds and smooth transitions
-- 🐱 **SnapCat Logo** - Fun cat pun branding with "PURRFECT CAPTURES"
+- **Live Screen Capture** — capture any window or screen area
+- **Instant Download** — save screenshots locally in one click
+- **Clean, minimal UI** — focused on clarity and usability
+- **Cat-inspired charm** — because tools should spark joy
 
-## 🚀 Getting Started
+---
+
+## 🐾 Pages
+
+- **Landing Page:** `http://localhost:3000` — main branded hero + CTA
+- **Screenshot Capture:** `http://localhost:3000/capture` — primary capture tool ⭐
+- **File Upload:** `http://localhost:3000/screenshot` — upload an existing image
+
+---
+
+## 🛠 Tech Stack
+
+- **Next.js 16 (App Router)**
+- **React 18**
+- **Tailwind CSS**
+- **Turbopack (dev server)**
+- **Vercel deployment-ready**
+
+---
+
+## 💻 Local Development
 
 ```bash
-# Install dependencies
+git clone <your-repo-url>
+cd purrfectcapture
 npm install
-
-# Run development server
 npm run dev
 ```
 
-Visit **http://localhost:3000/capture** to use the app!
+Then open `http://localhost:3000` in your browser.
 
-## 📱 Pages
+---
 
-- **Waitlist Hero:** http://localhost:3000 - Original waitlist design
-- **Screenshot Capture:** http://localhost:3000/capture - Main screenshot app ⭐
-- **File Upload:** http://localhost:3000/screenshot - Manual file upload
+## 🚀 Production
 
-## 🎯 How to Use
+When you're ready to go live:
 
-1. Click **"Take Screenshot"**
-2. Select what you want to capture (screen, window, or tab)
-3. Preview your screenshot
-4. Choose your save option:
-   - **Download to Desktop** - Saves as `snapcat-[timestamp].png` to your Downloads folder
-   - **Save to Cloud** - Requires Vercel Blob setup (optional)
-
-## 🔧 Cloud Storage Setup (Optional)
-
-If you want to save screenshots to the cloud:
-
-1. Go to https://vercel.com/dashboard
-2. Create a Blob store
-3. Copy your `BLOB_READ_WRITE_TOKEN`
-4. Create `.env.local` file:
-
-```env
-BLOB_READ_WRITE_TOKEN=your_token_here
-```
-
-5. Restart the dev server
-
-## 🎨 Branding
-
-**SnapCat** - Screenshot app with a playful cat theme
-- Logo: Pink cat with sunglasses and camera flash
-- Tagline: "PURRFECT CAPTURES"
-- Screenshots saved as: `snapcat-[timestamp].png`
-
-## 🛠️ Tech Stack
-
-- **Next.js 16** - React framework
-- **TypeScript** - Type safety
-- **Tailwind CSS** - Styling
-- **Vercel Blob** - Optional cloud storage
-- **getDisplayMedia API** - Native browser screen capture
-
-## 📝 Notes
-
-- Screenshots are saved in PNG format
-- Files are automatically named with timestamp
-- Works in Chrome, Edge, and other modern browsers
-- Safari support may vary
-
-Enjoy your purrfect screenshots! 🐱📸
+1. Push to GitHub (or your Git host of choice)
+2. Import the repo into Vercel
+3. Set your production URL (for example `https://purrfectcapture.pro`)
+4. Trigger a deployment and start capturing with a little meowgic 🐾
