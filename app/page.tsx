@@ -133,11 +133,11 @@ export default function Home() {
           </div>
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center tracking-tight px-4" style={{ color: colors.textMain }}>
-            Take a screenshot.
+            Snap it. Save it. Purrfect it.
           </h1>
 
           <p className="text-base sm:text-lg font-medium text-center px-4" style={{ color: colors.textSecondary }}>
-            Save anything with a screenshot.
+            Screenshot with purrfection—no claws attached.
           </p>
 
           {/* Screen Capture Component */}
