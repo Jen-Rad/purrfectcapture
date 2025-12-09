@@ -132,16 +132,22 @@ export default function Home() {
             <SnapCatLogo size="lg" />
           </div>
 
-          <h1 className="text-5xl md:text-6xl font-bold text-center tracking-tight" style={{ color: colors.textMain }}>
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center tracking-tight px-4" style={{ color: colors.textMain }}>
             Take a screenshot.
           </h1>
 
-          <p className="text-lg font-medium" style={{ color: colors.textSecondary }}>
+          <p className="text-base sm:text-lg font-medium text-center px-4" style={{ color: colors.textSecondary }}>
             Save anything with a screenshot.
           </p>
 
           {/* Screen Capture Component */}
           <div className="w-full max-w-2xl mt-4">
+            {/* Mobile Detection Message */}
+            <div className="md:hidden mb-4 p-4 bg-yellow-500/10 border border-yellow-500/20 rounded-xl">
+              <p className="text-yellow-200 text-sm text-center">
+                📱 Screen capture works best on desktop. Please visit on a computer for full functionality.
+              </p>
+            </div>
             <ScreenCapture />
           </div>
         </div>
