@@ -52,5 +52,5 @@ When you're ready to go live:
 
 1. Push to GitHub (or your Git host of choice)
 2. Import the repo into Vercel
-3. Set your production URL (for example `https://purrfectcapture.pro`)
+3. Set your production URL (for example `https://purrfectcapture.com`)
 4. Trigger a deployment and start capturing with a little meowgic 🐾

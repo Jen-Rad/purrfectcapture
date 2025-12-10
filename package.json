@@ -1,8 +1,8 @@
 {
   "name": "purrfectcapture",
   "version": "1.0.0",
-  "description": "SnapCat - Purrfect Screenshot Captures at purrfectcapture.pro",
-  "homepage": "https://purrfectcapture.pro",
+  "description": "SnapCat - Purrfect Screenshot Captures at purrfectcapture.com",
+  "homepage": "https://purrfectcapture.com",
   "main": "index.js",
   "scripts": {
     "dev": "next dev",
